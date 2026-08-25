@@ -8,7 +8,7 @@ A bank runs marketing campaigns (calls, emails, messages) to sell term deposits.
 
 ## Dataset
 
-`bank-additional.csv` — client and campaign data including demographics (age, job, marital status, education), financial info (loans, defaults), contact details (month, day, communication type), campaign history, and macroeconomic indicators (employment rate, consumer price index, euribor rate, etc.).
+`bank_dataset.csv` — client and campaign data including demographics (age, job, marital status, education), financial info (loans, defaults), contact details (month, day, communication type), campaign history, and macroeconomic indicators (employment rate, consumer price index, euribor rate, etc.).
 
 ## Workflow
 
@@ -37,10 +37,10 @@ The balanced model catches more actual subscribers (higher recall) at the cost o
 ## Requirements
 
 - Python 3
-- pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
+- pandas, numpy, matplotlib, seaborn, scikit-learn,
 
 ## How to Run
 
-1. Place `bank-additional.csv` in the same folder as the notebook.
-2. Open `CT_Individual_assignment.ipynb` and run all cells top to bottom.
-3. The trained model and preprocessing objects are saved as `model.pkl`, `scaler.pkl`, `columns.pkl`, and `numeric_cols.pkl`.
+1. Place `bank_dataset.csv` in the same folder as the notebook.
+2. Open `Bank Term Deposit Subscription Prediction`.ipynb
+` and run all cells top to bottom.
